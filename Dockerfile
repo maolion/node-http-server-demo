@@ -11,4 +11,7 @@ WORKDIR /node-http-server
 
 COPY main.js package.json yarn.lock /node-http-server/
 
+RUN yarn config set registry https://registry.npm.taobao.org --global
+RUN yarn config set disturl https://npm.taobao.org/dist --global
+
 RUN yarn install
