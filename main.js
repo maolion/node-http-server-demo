@@ -6,6 +6,8 @@ const app = express();
 const HOST = process.env.HOST || '0.0.0.0';
 const PORT = process.env.PORT || 1337;
 
+console.log('Hello, world');
+
 app.get('/', (req, res) => {
   res.send(`<h1>This request was processed by host: ${os.hostname}</h1>`);
 });
