@@ -12,5 +12,3 @@ WORKDIR /node-http-server
 COPY main.js package.json yarn.lock /node-http-server/
 
 RUN yarn install
-
-CMD node main.js
