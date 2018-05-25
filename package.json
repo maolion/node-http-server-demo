@@ -1,6 +1,6 @@
 {
   "name": "node-http-server-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "repository": "https://github.com/maolion/node-http-server-demo.git",
   "author": "maolion <maolion.j@gmail.com>",
